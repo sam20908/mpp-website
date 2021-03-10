@@ -34,4 +34,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: build
           CLEAN: true
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
